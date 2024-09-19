@@ -16,7 +16,7 @@ const FoodDisplay = ({ category }) => {
                             <FoodItem key={index} id={item._id} name={item.name} price={item.price} description={item.description} image={item.image} />
                         )
                     }
-                    
+
                 })}
             </div>
         </div>
